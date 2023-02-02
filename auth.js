@@ -36,7 +36,7 @@ module.exports = function (app, myDataBase) {
   passport.use(new GitHubStrategy({
     clientID: process.env.GITHUB_CLIENT_ID,
     clientSecret: process.env.GITHUB_CLIENT_SECRET,
-    callbackURL: 'https://02-Advanced-Node-and-Express.tacchinardi20.repl.co/auth/github/callback'
+    callbackURL: 'https://02-advanced-node-and-express.glitch.me/auth/github/callback'
   },
 
     function(accessToken, refreshToken, profile, cb) {
